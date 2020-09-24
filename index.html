@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML5 Semantic Tags</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        /* text-emphasis-color: black; */
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        /* background-color: crimson; */
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+        background-color: burlywood;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div style="background-image: url('/images/headers/header_2.jpg'); text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    " id="header">
+      <h1> Hiricks Workshop</h1>
+      <p>A place where I dump my ingenuity</p>
+    </div>
+
+    <!-- Main Content (left) -->
+    <div id="main">
+      <!-- Welcome Section -->
+      <div id="welcome" class="card">
+        <h2>Welcome To My Website</h2>
+        <p>
+          I might change it later if i have time but for now..."<code>lorem</code>" rules hehe Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          cupiditate itaque possimus numquam corporis odit deserunt voluptas
+          repellat ad ex earum magnam mollitia magni eaque nisi, excepturi nam
+          temporibus! Sed. <br />
+          <a href="stuff.html" class="text-center">Click For More</a>
+        </p>
+      </div>
+      <!-- Blog Section -->
+      <div id="blog">
+        <h2>From My Blog</h2>
+        <!-- Article One -->
+        <div class="article">
+          <h3>Article One</h3>
+          <p>
+            This <b><i>Article</i></b> is about me testing and how they show up in webpages and a bunch of nonsense that I'm trying to fill up withought using "<code>lorem</code>".
+          </p>
+        </div>
+        <!-- Article Two -->
+        <div class="article">
+          <h3>Article Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+            totam accusantium officiis!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar (right) -->
+    <div id="sidebar" class="card">
+      <h3>Navigation</h3>
+      <!-- Navigation -->
+      <ul id="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <hr />
+      <h3>Contact Us</h3>
+      <ul>
+        <li><strong>Address:</strong> Ohene Boampong Rd 10, Koforidua - Asokore</li>
+        <li><strong>Phone:</strong> (+233) 540 99 6619</li>
+        <li><strong>Email:</strong> hiricks@gmail.com</li>
+      </ul>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p class="text-center">Copyright &copy; Hiricks 2020</p>
+    </div>
+  </body>
+</html>
